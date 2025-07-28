@@ -7,17 +7,20 @@ This project implements an EMA crossover trading strategy for NQ futures (Nasdaq
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
+- [File Structure](#file-structure)
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Data Preparation](#data-preparation)
 - [Usage](#usage)
-- [File Structure](#file-structure)
-- [Documentation](#documentation)
+
 
 ## Overview
+
 The script `scripts/EMA_Trading_Signal.py` analyzes NQ futures data to generate trading signals based on 9-period and 21-period EMA crossovers. It computes trade outcomes, equity curves, drawdowns, and performance metrics. Users can use the provided `data/nq=F_trading_data.csv` or download new stock data via `yfinance`.
 
+
 ## Features
+
 - Generates buy/sell signals using EMA crossovers
 - Calculates trade profit/loss, returns, and equity curves
 - Plots price, EMAs, trade entries/exits, equity curve, and drawdown
@@ -25,13 +28,38 @@ The script `scripts/EMA_Trading_Signal.py` analyzes NQ futures data to generate 
 - Supports downloading new stock data with `yfinance`
 
 
+## File Structure
+```
+EMA-Trading-Signal/
+├── EMA_Trading_Signal.sln        # Visual Studio solution
+├── data/
+│   └── nq=F_trading_data.csv     # NQ futures data
+├── scripts/
+│   └── EMA_Trading_Signal.py     # EMA strategy script
+└── gitignore
+```
+
+
 ## Requirements
+
 - Python 3.8+
-- Packages: `os`, `pandas`, `numpy`, `matplotlib`, `yfinance`
+
+Standard Library
+-os
+
+Third-Party Libraries
+-pandas
+-numpy
+-matplotlib
+-yfinance
+
 - Visual Studio (optional, for `EMA_Trading_Signal.sln`)
+
 - Git (for cloning)
 
+
 ## Installation
+
 1. Clone the repository:
    ```bash
    git clone https://github.com/leoncc24/EMA-Trading-Signal.git
@@ -51,7 +79,9 @@ The script `scripts/EMA_Trading_Signal.py` analyzes NQ futures data to generate 
 
 4. (Optional) Open `EMA_Trading_Signal.sln` in Visual Studio to manage scripts.
 
+
 ## Data Preparation
+
 The project uses `data/nq=F_trading_data.csv` by default. Alternatively, users can download new stock data using `yfinance`.
 
 
@@ -92,7 +122,9 @@ To use a different stock or date range:
    ```
 6. Verify the new CSV in `data/` has `Date`, `Close`, `EMA_9`, `EMA_21`, `Position`.
 
+
 ## Usage
+
 1. Ensure `data/nq=F_trading_data.csv` or a custom CSV is in `data/`.
 2. Run the script:
    ```bash
@@ -108,13 +140,3 @@ To use a different stock or date range:
    - Displays performance metrics and plots.
 
 
-## File Structure
-```
-EMA-Trading-Signal/
-├── EMA_Trading_Signal.sln        # Visual Studio solution
-├── data/
-│   └── nq=F_trading_data.csv     # NQ futures data
-├── scripts/
-│   └── EMA_Trading_Signal.py     # EMA strategy script
-└── gitignore
-```
