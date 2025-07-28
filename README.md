@@ -66,11 +66,12 @@ Tech Stack: pandas, numpy, matplotlib
 ### 2. [S&P 500 Macroeconomic Analysis](https://github.com/leoncc24/Projects/tree/main/sp500_with_macro)
 Methods:
 
-Granger causality tests
-
-VAR (Vector Autoregression) modeling
-
-Impulse response analysis
+-Correlation Analysis: Plots heatmaps to visualize relationships between variables.
+-Cross-Correlation Function (CCF) Analysis: Examines lead-lag relationships.
+-Granger Causality Tests: Identifies variables that help predict S&P 500 returns.
+-Feature Selection: Finds the best combination of predictors for S&P 500 returns.
+-VAR Modeling: Trains a Vector Autoregression model for multivariate time series forecasting.
+-Visualization: Provides multi-series plots with event overlays.
 
 Key Findings:
 
