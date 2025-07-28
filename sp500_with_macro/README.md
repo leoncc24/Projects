@@ -19,7 +19,7 @@ This project starts with three csv files downloaded from reliable sources which 
 Then the data is fed into different functions or tests using time series econometric techniques, and applies statistical analyses (e.g., Granger causality, VAR modeling, cross-correlation) via scripts to find their relationship, pattern or predictive power to each other. 
 
 Visualizations (e.g., correlation heatmaps, time series plots) are generated using matplotlib and seaborn.
-For detailed visualizations and analysis, see the PowerPoint in the folder [presentations folder](sp500&macro.pptx)
+For detailed visualizations and analysis, see the PowerPoint in the folder [sp500&marco.pptx](/sp500&macro.pptx)
 
 
 ## Features
