@@ -56,6 +56,10 @@
 ## Python Analyses
 
 ### 1. [EMA Trading Signal Generator](https://github.com/leoncc24/Projects/tree/main/EMA_Trading_Signal)
+
+**Goal**:
+Using typical exponential moving average crossover as trading strategy to test the return on trading nasdaq future
+
 Key Metrics:
 
 Realised return: 46.52% (vs 12.57% buy-and-hold)
@@ -67,8 +71,13 @@ Profit Factor: 2.6
 Tech Stack: pandas, numpy, matplotlib
 
 
-
 ### 2. [S&P 500 Macroeconomic Analysis](https://github.com/leoncc24/Projects/tree/main/sp500_with_macro)
+
+**Goal**:
+Extract S&P500 price and US Macroeconomic data from 1981 to 2021
+Analyze their relationship, lead-lag dynamics, and prediction power
+Highlighting the potential insights and implications for financial forecasting
+
 Methods:
 
 -Correlation Analysis: Plots heatmaps to visualize relationships between variables.
