@@ -14,8 +14,12 @@ This project analyzes the relationship between S&P 500 returns and various US ma
 - [Output](#output)
 
 ## Overview
-This project starts with three csv files downloaded from reliable sources which include the S&P500 historical price with 12 other US macroeconomic metrics. The data is first processed into stationary form which is prerequisite for the below analysis. Then the data is fed into different functions or tests using time series econometric techniques, and applies statistical analyses (e.g., Granger causality, VAR modeling, cross-correlation) via scripts to find their relationship, pattern or predictive power to each other. 
+This project starts with three csv files downloaded from reliable sources which include the S&P500 historical price with 12 other US macroeconomic metrics. The data is first processed into stationary form which is prerequisite for the below analysis. 
+
+Then the data is fed into different functions or tests using time series econometric techniques, and applies statistical analyses (e.g., Granger causality, VAR modeling, cross-correlation) via scripts to find their relationship, pattern or predictive power to each other. 
+
 Visualizations (e.g., correlation heatmaps, time series plots) are generated using matplotlib and seaborn.
+For detailed visualizations and analysis, see the PowerPoint in the folder [presentations folder](sp500&macro.pptx)
 
 
 ## Features
@@ -33,6 +37,9 @@ Visualizations (e.g., correlation heatmaps, time series plots) are generated usi
 ## File Structure
 ```
 sp500_with_macro/
+├── sp500_with_macro.sln
+├── .gitignore
+├── sp500&marco.pptx
 ├── data/
 │   ├── macro_monthly.csv
 │   ├── S&P 500 Historical Data.csv
