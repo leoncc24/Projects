@@ -1,6 +1,11 @@
 # Data Analysis Projects Portfolio
 
-*A collection of Power BI dashboards and Python analyses showcasing my skills in **data visualization, statistical modeling, and business intelligence**.*
+*Proof of my **full-cycle analytics capabilities**:*
+▸ Data cleaning & transformation  
+▸ KPI development & tracking  
+▸ Root-cause analysis  
+▸ Executive-level storytelling  
+
 
 ---
 
