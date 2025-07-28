@@ -1,0 +1,14 @@
+This file contains all the meta information regarding the columns described in the EXCEL files. we have provided 1 EXCEL files:
+1. Finance Database
+
+
+Column Description for Finance Database:
+1. Type: This column represents the transaction types in Income, Expense and Savings.
+2. Component: This column represents the sub-type of the transactions e.g. Salary, Fixed Deposit, Mutual Funds etc.
+3. Date: This column represents the date in format of MMM yy.
+4. Value: This column represents the amount of the transaction in currency HKD format .
+
+
+
+
+

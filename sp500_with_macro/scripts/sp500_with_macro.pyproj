@@ -1,0 +1,53 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0f4172db-c0d8-4d09-a3f1-c5f72776c513}</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>main.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>sp500_with_macro</Name>
+    <RootNamespace>sp500_with_macro</RootNamespace>
+    <TestFramework>Pytest</TestFramework>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="analysis\CCF_test.py" />
+    <Compile Include="analysis\corr_heatmap.py" />
+    <Compile Include="analysis\find_best_target_vars.py" />
+    <Compile Include="analysis\granger.py" />
+    <Compile Include="analysis\three_subplots.py" />
+    <Compile Include="analysis\var_model.py" />
+    <Compile Include="analysis\visualizations.py" />
+    <Compile Include="config\paths.py" />
+    <Compile Include="config\settings.py" />
+    <Compile Include="data\loader.py" />
+    <Compile Include="data\preprocessor.py" />
+    <Compile Include="main.py" />
+    <Compile Include="sp500_with_macro.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="analysis\" />
+    <Folder Include="config\" />
+    <Folder Include="data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

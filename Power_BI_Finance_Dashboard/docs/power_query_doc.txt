@@ -1,0 +1,28 @@
+
+
+-----------------------------> Data Loading and Power Query Documentation -------------------------------------->
+
+
+1. Create a folder in Desktop and store the excel files related to finance.
+
+2. Open a Power BI file, and In "Get Data", select the option as folder and browse through the folder containing excel file.
+
+3. Then go to Tranform data and Select the Findata table.
+
+
+
+
+*****************  Power Query steps for tables:  *******************
+1. Finance Database:
+	- Select the first date column until the end date column
+	- Go to Transform - Unpivot columns
+        - Change data type of the value column into fixed decimal
+	- Change data type of the Date column into Date
+        - Select the first date column until the end date column
+	- Go to Add column - Date - Year
+        - Change data type of the Year column into Date
+	
+
+
+
+

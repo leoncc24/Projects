@@ -1,0 +1,27 @@
+
+
+-----------------------------> Data Loading and Power Query Documentation -------------------------------------->
+
+
+1. Create a folder in Desktop and store the csv files related to finance.
+
+2. Open a Power BI file, and In "Get Data", select the option as folder and browse through the folder containing csv file.
+
+3. Then go to Table view
+
+
+
+
+*****************  Power Query steps for tables:  *******************
+1. New table - Month:
+	- since the month in fact_spends is just month name in text data type, need to create a new table to assign order of the month names
+	- First column - Month : May, June, July, August, September, October
+        - Second column - Month_order : 1,2,3,4,5,6
+	- Sort by Month_order
+        - Go to Model View - 1 to many relation from Month/Month to fact_spends/month
+	
+	
+
+
+
+
