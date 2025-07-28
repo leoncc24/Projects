@@ -2,7 +2,7 @@
 
 ![Preview](screenshot.png)
 
-This project implements an EMA crossover trading strategy for NQ futures (Nasdaq-100 futures) using Python. It generates trading signals, calculates equity curves, and visualizes performance with price, trade signals, equity curve, and drawdown plots. Outputs can be used in Power BI for further analysis.
+This project implements an EMA crossover trading strategy for NQ futures (Nasdaq-100 futures) using Python. It generates trading signals, calculates equity curves, and visualizes performance with price, trade signals, equity curve, and drawdown plots. 
 
 ## Table of Contents
 - [Overview](#overview)
@@ -18,18 +18,17 @@ This project implements an EMA crossover trading strategy for NQ futures (Nasdaq
 The script `scripts/EMA_Trading_Signal.py` analyzes NQ futures data to generate trading signals based on 9-period and 21-period EMA crossovers. It computes trade outcomes, equity curves, drawdowns, and performance metrics. Users can use the provided `data/nq=F_trading_data.csv` or download new stock data via `yfinance`.
 
 ## Features
-- Generates buy/sell signals using EMA crossovers.
-- Calculates trade profit/loss, returns, and equity curves.
-- Plots price, EMAs, trade entries/exits, equity curve, and drawdown.
-- Provides metrics: total return, max drawdown, win rate, profit factor.
-- Supports downloading new stock data with `yfinance`.
-- Integrates with Power BI for visualization.
+- Generates buy/sell signals using EMA crossovers
+- Calculates trade profit/loss, returns, and equity curves
+- Plots price, EMAs, trade entries/exits, equity curve, and drawdown
+- Provides metrics: total return, max drawdown, win rate, profit factor
+- Supports downloading new stock data with `yfinance`
+
 
 ## Requirements
 - Python 3.8+
 - Packages: `os`, `pandas`, `numpy`, `matplotlib`, `yfinance`
 - Visual Studio (optional, for `EMA_Trading_Signal.sln`)
-- Power BI Desktop (optional, for visualization)
 - Git (for cloning)
 
 ## Installation
