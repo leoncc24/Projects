@@ -40,7 +40,7 @@ The analysis uses FitBit Fitness Tracker Data (CC0: Public Domain) available on 
 - Lowest activity: Sundays
 
 ###  Device Engagement
-![Engagement Chart](User_Activity_Levels_Based_on_Daily_Steps.png)
+![Engagement Chart](Percentage_of_Users_by_Activity_Frequency.png)
 - 6% frequent users (21-31 days)
 - 69% regular users (10-20 days)
 - 26% occasional users (<10 days)
