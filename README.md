@@ -127,7 +127,7 @@ Tech Stack:
 
 ---
 
-## Projecct Structure
+## Project Files Structure
 Projects/
 ├── Power_BI_Hotel_Revenue/
 ├── Power_BI_Credit_Card/
