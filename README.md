@@ -126,7 +126,7 @@ Tech Stack:
 -R, tidyverse, janitor, lubridate, dplyr, ggplot2, tidyr, scales
 
 ---
-
+```
 ## Project Files Structure
 Projects/
 ├── Power_BI_Hotel_Revenue/
@@ -135,3 +135,4 @@ Projects/
 ├── EMA_Trading_Signal/
 ├── SP500_Macro/
 └── R_Bellabeat_Case_Study/
+```
