@@ -149,7 +149,24 @@ Dive deep into data to see below findings
 
 Tech Stack: 
 -SQL, MySQL, Date_Format, CTE, Window Function
+
+## Tableau Dashboard
+
+### 1. [Private Project - Company Product Ticket Dashboard]
+
+**Goal**:
+-Summarize and visulaize ticket data, identify the highly frequent and long handling hour problem, to improve service operations and product reliability
+
+- Overall issue ticket card summary
+- Line chart show monthly ticket trend
+- Map with color density show ticket density and locations
+- Visualizes aggregated metrics by ticket category
+- In-depth level charts to see the number of tickets and handling hours due to differen levels of product faulty
+- Nagviation Page Buttons 
+
 ---
+
+
 ```
 ## Project Files Structure
 Projects/
