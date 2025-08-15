@@ -152,7 +152,7 @@ Tech Stack:
 
 ## Tableau Dashboard
 
-### 1. [Private Project - Company Product Ticket Dashboard]
+### 1. Private Project - Company Product Ticket Dashboard
 
 **Goal**:
 -Summarize and visulaize ticket data, identify the highly frequent and long handling hour problem, to improve service operations and product reliability
