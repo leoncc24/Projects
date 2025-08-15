@@ -125,6 +125,30 @@ Key Findings:
 Tech Stack: 
 -R, tidyverse, janitor, lubridate, dplyr, ggplot2, tidyr, scales
 
+
+## SQL Analysis
+
+### 1. [World_Layoff_Data_Cleaning_EDA](https://github.com/leoncc24/Projects/tree/main/SQL_world_layoff)
+
+**Goal**:
+-Import and clean data from a csv file, then do Exploratory Data Analysis with aggregation function to find trend or insights from the data
+
+Data Cleaning:
+1.Remove Duplicates
+2.Standardize the Data format
+3.Handle Null values or blank values
+4.Romve useless columns
+
+Exploratory Data Analysis:
+Dive deep into data to see below findings
+- The most impacted industries
+- The most impacted coutries
+- World monthly laid off trend and pattern during data period
+- Top 5 companies with most laid off each year
+
+
+Tech Stack: 
+-SQL, MySQL, Date_Format, CTE, Window Function
 ---
 ```
 ## Project Files Structure
@@ -134,5 +158,6 @@ Projects/
 ├── Power_BI_Finance_Dashboard/
 ├── EMA_Trading_Signal/
 ├── SP500_Macro/
+├── SQL_world_layoff/
 └── R_Bellabeat_Case_Study/
 ```
