@@ -154,9 +154,13 @@ Tech Stack:
 
 ### 1. Private Project - Company Product Ticket Dashboard
 
+Remark:
+Data is not completly anonymized, therefore this repo is only limited access
+
 **Goal**:
 -Summarize and visulaize ticket data, identify the highly frequent and long handling hour problem, to improve service operations and product reliability
 
+Feature:
 - Overall issue ticket card summary
 - Line chart show monthly ticket trend
 - Map with color density show ticket density and locations
