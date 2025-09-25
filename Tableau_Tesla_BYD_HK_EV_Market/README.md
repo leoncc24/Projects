@@ -18,10 +18,8 @@
 | Metric | Formula | Description |
 |--------|---------|-------------|
 | **Car Sale Revenue** | `[Avg Price]*[Registrations]  ` | Estimated car price multiply to registration number |
-| **CY Tesla Sales** | `IF YEAR([Year-Month]) = [Select Year]AND [Make]= 'Tesla' THEN [Car Sale Revenue]
-END  ` | Revenue of each month when used with Year-Months columns and year parameter selection |
-| **Savings** | `IF YEAR([Year-Month]) = [Select Year]-1 AND [Make]= 'Tesla' THEN [Car Sale Revenue]
-END  ` | Revenue of the previous year |
+| **CY Tesla Sales** | `IF YEAR([Year-Month]) = [Select Year]AND [Make]= 'Tesla' THEN [Car Sale Revenue] END  ` | Revenue of each month when used with Year-Months columns and year parameter selection |
+| **Savings** | `IF YEAR([Year-Month]) = [Select Year]-1 AND [Make]= 'Tesla' THEN [Car Sale Revenue] END  ` | Revenue of the previous year |
 | **QoQ registration** | `(SUM([Registrations]) - LOOKUP(SUM([Registrations]), -1)) / ABS(LOOKUP(SUM([Registrations]), -1))  ` | Quarter over Quarter growth of registration number |
 
 
