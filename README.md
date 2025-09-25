@@ -118,12 +118,13 @@ Tech Stack:
 
 ## Tableau Dashboard
 
-### 1. Private Project - Hong Kong Auto Market and comparison between TESLA and BYD
+### 1. [Hong Kong Auto Market and comparison between TESLA and BYD]
 Remark:
 Data used is from the Python Project - Web scrab of HK Prviate Car Registration data
 
 **Goal**:
--Summarize and visulaize Hong Kong Private Car Registration data, identify the distribution and trend of the market.
+-Summarize and visulaize Hong Kong Private Car Registration data, identify the distribution and trend of the market
+
 -Dive deep into Tesla and BYD, comparing, both revenue, sale and market share
 
 Feature:
@@ -134,7 +135,7 @@ Feature:
 - Nagviation Page Buttons
 
   
-### 2. Private Project - Company Product Ticket Dashboard
+### 2. [Private Project - Company Product Ticket Dashboard]
 
 Remark:
 Data is not completly anonymized, therefore this repo is only limited access
