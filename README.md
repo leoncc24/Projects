@@ -41,7 +41,7 @@ Tech Stack:
 
 ## Python Analysis
 
-### 1. [Web scrab of HK Prviate Car Registration data](https://github.com/leoncc24/Projects/tree/main/Tesla_BYD_HK_EV_Market)
+### 1. [Web scrap of HK Private Car Registration data](https://github.com/leoncc24/Projects/tree/main/Web_scarp_TD_Private_car)
 
 **Goal**:
 -Extract monthly data pf First Registration of Private Cars by Make, First Registration Vehicle Status, Fuel Type and Body Type from HK Transport Department (2018 to 2025)
@@ -118,12 +118,12 @@ Tech Stack:
 
 ## Tableau Dashboard
 
-### 1. [Hong Kong Auto Market and comparison between TESLA and BYD]
+### 1. [Hong Kong Auto Market and comparison between TESLA and BYD](https://github.com/leoncc24/Projects/tree/main/Tableau_Tesla_BYD_HK_EV_Market)
 Remark:
 Data used is from the Python Project - Web scrab of HK Prviate Car Registration data
 
 **Goal**:
--Summarize and visulaize Hong Kong Private Car Registration data, identify the distribution and trend of the market
+-Summarize and visualize Hong Kong Private Car Registration data, identify the distribution and trend of the market
 
 -Dive deep into Tesla and BYD, comparing, both revenue, sale and market share
 
