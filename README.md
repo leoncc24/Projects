@@ -206,7 +206,7 @@ Visualize years of income/expense data for budgeting insights
 - Identified improvement of saving rate which was below the target rate most of the time (e.g. save first then spend)
 
 
-### 3. [Digital Marketing Dashboard](https://github.com/leoncc24/Projects/tree/main/Power_BI_Digital_Marketing_Performance_Dasboard)
+### 4. [Digital Marketing Dashboard](https://github.com/leoncc24/Projects/tree/main/Power_BI_Digital_Marketing_Performance_Dasboard)
 **Goal**: 
 Visualize 3 years of E-commerce digital marketing data for marketing and service improvement insights
 
