@@ -30,7 +30,7 @@ Power BI dashboard analyzing **3 years of E-Commerce Digital Marketing performan
 |--------|---------|-------------|
 | **Number of Customer Reviews** | `DISTINCTCOUNT( fact_customer_reviews_with_sentiment[ReviewID] ) ` ||
 | **Rating (Average)** | `AVERAGE( fact_customer_reviews_with_sentiment[Rating] ) ` ||
-| **Views** | `SUM ( fact_engagement[Views] )` | Utilization rate |
+| **Views** | `SUM ( fact_engagement[Views] )` ||
 | **Number of Campaigns** | `DISTINCTCOUNT( fact_engagement[CampaignID] ) ` ||
 | **Conversion Rate %** | `(VAR TotalVisitors = CALCULATE( COUNT (fact_customer_journey[JourneyID]) , fact_customer_journey[Action] = "View" )VAR TotalPurchases = CALCULATE(COUNT(fact_customer_journey[JourneyID]),fact_customer_journey[Action] = "Purchase")RETURN IF(TotalVisitors = 0, 0, DIVIDE(TotalPurchases, TotalVisitors)) )` ||
 
