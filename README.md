@@ -205,6 +205,23 @@ Visualize years of income/expense data for budgeting insights
 - Recognized bad spending practice (e.g. spend more when earn more)
 - Identified improvement of saving rate which was below the target rate most of the time (e.g. save first then spend)
 
+
+### 3. [Digital Marketing Dashboard](https://github.com/leoncc24/Projects/tree/main/Power_BI_Digital_Marketing_Performance_Dasboard)
+**Goal**: 
+Visualize 3 years of E-commerce digital marketing data for marketing and service improvement insights
+
+**Key Features**:
+- Monthly performace trends
+- Customer review rating and sentiment breakdowns
+- Key metircs by product analysis
+
+**Skills**: 
+-Time-series visualization
+
+**Insights**:
+- Recognized high-performance prodcut categories, suggest implement seasonal promotions during peak months (Januray & September)
+- Address mixed and negative feedback, analyze those reviews to identift common issues, aiming to move average rating to 4.0 target
+  
 ---
 
 ```
@@ -213,6 +230,7 @@ Projects/
 ├── Power_BI_Hotel_Revenue/
 ├── Power_BI_Credit_Card/
 ├── Power_BI_Finance_Dashboard/
+├── Power_BI_Digital_Marketing_Performance_Dasboard
 ├── EMA_Trading_Signal/
 ├── SP500_Macro/
 ├── SQL_world_layoff/
