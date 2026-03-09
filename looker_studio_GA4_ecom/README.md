@@ -64,7 +64,7 @@ GA4 Dashboard/
 
 ##  Sample Analysis Views
 1. **Key matrix cards**
-![Dashboard Preview](docs/screenshot1.png)
+![Dashboard Preview](doc/screenshot1.png)
     - Sessions
     - Page Views
     - New Users
@@ -74,20 +74,21 @@ GA4 Dashboard/
     - Revenue
 
 2. **User Demographic Analysis**
-![Dashboard Preview](docs/screenshot2.png)
+![Dashboard Preview](doc/screenshot2.png)
    - Pie chart: Device and OS
    - Bar chart: Browser and Countries
 
 3. **Source and Medium Analysis**
-![Dashboard Preview](docs/screenshot3.png)
+![Dashboard Preview](doc/screenshot3.png)
    - Table break down: sessions and sessions% of source and medium
    - Table break down: sessions, average time on page and bounce rate of each page
 
 3. **eCommerce Analysis**
-![Dashboard Preview](docs/screenshot4.png)
+![Dashboard Preview](doc/screenshot4.png)
    - Key Metrics: Total Transaction, conversion rate, total revenue, average order value
    - Line chart: revenue daily trend
    - Funnel chart: % of each session (start, view item, add item to cart, checkout, purchase)
    - Table break down: goods and product revenue
    
+
 
