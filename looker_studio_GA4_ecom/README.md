@@ -7,7 +7,7 @@
 ## Project Overview
 
 This project simulates the **daily workflow** used by SEO agencies when managing Google Analytics 4 (GA4) for clients
-However due to confidentaility, this project is using realistic data public in the BigQuert market instead of a real website GA4 data
+However due to confidentiality, this project is using realistic data public in the BigQuert market instead of a real website GA4 data
 
 1. **GA4 Implementation** (skipped)
    GA4 property is added to the client website via Google Tag Manager
@@ -90,5 +90,6 @@ GA4 Dashboard/
    - Funnel chart: % of each session (start, view item, add item to cart, checkout, purchase)
    - Table break down: goods and product revenue
    
+
 
 
