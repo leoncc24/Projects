@@ -3,7 +3,8 @@
 **Proof of my full-cycle analytics capabilities:**
 - Data cleaning & transformation
 - KPI development & tracking  
-- Root-cause analysis  
+- Root-cause analysis
+- Dashboard building  
 - Executive-level storytelling  
 
 **Skills Involved:**
@@ -12,6 +13,7 @@
 - Python
 - Power BI
 - Tableau
+- Looker studio
 
 ---
 ## SQL Analysis
@@ -224,17 +226,71 @@ Visualize 3 years of E-commerce digital marketing data for marketing and service
   
 ---
 
+## Power BI Dashboards
+
+### 1. [Google eCommerce GA4 Performance Dashboard](https://github.com/leoncc24/Projects/tree/main/looker_studio_GA4_ecom)
+**Goal**: 
+-Simulate SEO data analyst daily rountine of website performance analysis
+-Analyze 1 year of Google Analytic 4 data of Google eCommerce website to monitor performance and spot opportunity
+
+**Key Features**:
+- Tracked key performance matrix such as sessions, page views, bounce rate, revenue
+- Dynamic filters for data date range
+- Clear table break down of source traffic, page performance and goods sold
+- Session funnel chart analysis of user interation with website
+
+**Skills**: 
+GA4 connector, scheduled query, view creation and auto dashboard data update 
+
+**Insights**:
+- Spot user demographic peference and website optimization direction -  majority of user use window desktop chrome browser and iphone safari
+  
+- Apart from major traffic from direct link, youtube channel is another opportunity to improve traffi
+  
+- Home page need improvement to retain higher user interation - since home page takes ~32% of total traffic but with high bounce rate of 43% (user leave from this page)
+
+- Pages that connect users to view product should be improved - since it has the lowest percentage of sessions ~14%
+  
+- Product focus or promotion/sale direction - Apprael and drinkware take more than half of the revenue ~60%
+
+
+### 2. [Google eCommerce GA4 Performance Dashboard](https://github.com/leoncc24/Projects/tree/main/looker_studio_GSC_insurance)
+**Goal**: 
+-Simulate SEO data analyst daily rountine of website performance analysis
+-Analyze 6 months of Google Search Console data of Insurance Company - Prudential website to monitor Page/query performance and spot opportunity
+
+**Key Features**:
+- Tracked key performance matrix such as impressions, clicks, click through rate(CTR), position
+- Dynamic filters for page, query, device, country, data date range
+- Clear table break down of query and page performance including wow and mom change
+- Bubble chart show the relationship bewtween CTR, position and impressions
+
+**Skills**: 
+GSC connector, scheduled query, view creation and auto dashboard data update 
+
+**Insights**:
+- Spot user demographic peference and website optimization direction -  majority of users are from HK and visit the chinese version of the pages
+  
+- Products related to life insurance, travel insurance and VHIS need to be focused - high search and CTR for related keywords
+  
+- Early and seasonal promotion of products in the last quarter to outcomplete the competitiors - Higher impression and spike showed at the last quarter
+  
+---
+
 ```
 ## Project Files Structure
 Projects/
 ├── Power_BI_Hotel_Revenue/
 ├── Power_BI_Credit_Card/
 ├── Power_BI_Finance_Dashboard/
-├── Power_BI_Digital_Marketing_Performance_Dasboard
+├── Power_BI_Digital_Marketing_Performance_Dasboard/
 ├── EMA_Trading_Signal/
 ├── SP500_Macro/
 ├── SQL_world_layoff/
-├── Tableau_Tesla_BYD_HK_EV_Market
-├── Web_scarp_TD_Private_car
-└── R_Bellabeat_Case_Study/
+├── Tableau_Tesla_BYD_HK_EV_Market/
+├── Web_scarp_TD_Private_car/
+├── R_Bellabeat_Case_Study/
+├── looker_studio_GA4_ecom/
+└── looker_studio_GSC_insurance/
+
 ```
