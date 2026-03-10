@@ -84,6 +84,13 @@ GSC Dashboard/
    - Table break down: key matrix changes(impressions, clicks, CTR, position) of each page
 
 
+## Insights
+- Spot user demographic peference and website optimization direction -  majority of users are from HK and visit the chinese version of the pages
+  
+- Products related to life insurance, travel insurance and VHIS need to be focused - high search and CTR for related keywords
+  
+- Early and seasonal promotion of products in the last quarter to outcomplete the competitiors - Higher impression and spike showed at the last quarter
+
 
 
 
