@@ -48,11 +48,7 @@ GSC Dashboard/
 
 | Metric | Formula | Description |
 |--------|---------|-------------|
-| **chi_eng** | ` CASE
-  WHEN REGEXP_CONTAINS(page_path, '(?i)/tc/') THEN 'Traditional Chinese Pages'
-  WHEN REGEXP_CONTAINS(page_path, '(?i)/en/') THEN 'English Pages'
-  ELSE 'Others'
-END ` | Chinese or English page |
+| **chi_eng** | ` CASE WHEN REGEXP_CONTAINS(page_path, '(?i)/tc/') THEN 'Traditional Chinese Pages' WHEN REGEXP_CONTAINS(page_path, '(?i)/en/') THEN 'English Pages' ELSE 'Others' END ` | Chinese or English page |
 
 
 ##  Data Coverage
@@ -86,6 +82,7 @@ END ` | Chinese or English page |
    - Line chart: comparison among current, previous week, previous month website traffic
    - Pie chart: website impression(traffic) by languages
    - Table break down: key matrix changes(impressions, clicks, CTR, position) of each page
+
 
 
 
