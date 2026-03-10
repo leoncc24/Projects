@@ -89,7 +89,21 @@ GA4 Dashboard/
    - Line chart: revenue daily trend
    - Funnel chart: % of each session (start, view item, add item to cart, checkout, purchase)
    - Table break down: goods and product revenue
-   
+
+
+## Insights
+- Spot user demographic peference and website optimization direction -  majority of user use window desktop chrome browser and iphone safari
+  
+- Apart from major traffic from direct link, youtube channel is another opportunity to improve traffi
+  
+- Home page need improvement to retain higher user interation - since home page takes ~32% of total traffic but with high bounce rate of 43% (user leave from this page)
+
+- Pages that connect users to view product should be improved - since it has the lowest percentage of sessions ~14%
+  
+- Product focus or promotion/sale direction - Apprael and drinkware take more than half of the revenue ~60%
+
+
+
 
 
 
