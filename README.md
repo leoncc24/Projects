@@ -226,7 +226,7 @@ Visualize 3 years of E-commerce digital marketing data for marketing and service
   
 ---
 
-## Power BI Dashboards
+## Looker Studio Dashboards
 
 ### 1. [Google eCommerce GA4 Performance Dashboard](https://github.com/leoncc24/Projects/tree/main/looker_studio_GA4_ecom)
 **Goal**: 
